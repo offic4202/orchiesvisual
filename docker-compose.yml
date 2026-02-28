@@ -1,0 +1,38 @@
+version: '3.8'
+
+services:
+  app:
+    image: php:8.2-apache
+    container_name: orchiesvisual
+    ports:
+      - "80:80"
+    volumes:
+      - .:/var/www/html
+    environment:
+      - DB_HOST=db
+      - DB_NAME=orchiesvisual_db
+      - DB_USER=root
+      - DB_PASSWORD=orchies_secret_2024
+    depends_on:
+      - db
+    command: >
+      bash -c "
+        docker-php-ext-install pdo pdo_mysql > /dev/null 2>&1 &&
+        chown -R www-data:www-data /var/www/html/admin/uploads &&
+        chmod -R 755 /var/www/html/admin/uploads &&
+        apache2-foreground
+      "
+    restart: unless-stopped
+
+  db:
+    image: mysql:8.0
+    container_name: orchiesvisual-db
+    environment:
+      - MYSQL_ROOT_PASSWORD=orchies_secret_2024
+      - MYSQL_DATABASE=orchiesvisual_db
+    volumes:
+      - mysql_data:/var/lib/mysql
+    restart: unless-stopped
+
+volumes:
+  mysql_data:

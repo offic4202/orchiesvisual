@@ -1,0 +1,441 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Orchies Visual | Videographer & Content Creator</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&family=Oswald:wght@500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="#" class="logo">ORCHIES<span class="accent">VISUAL</span></a>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#portfolio">Work</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#clients">Clients</a></li>
+                <li><a href="#contact" class="btn-nav">Let's Talk</a></li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <section id="home" class="hero">
+        <div class="hero-video">
+            <video autoplay muted loop playsinline>
+                <source src="https://assets.mixkit.co/videos/preview/mixkit-stars-in-space-1610-large.mp4" type="video/mp4">
+            </video>
+            <div class="video-overlay"></div>
+        </div>
+        <div class="hero-content">
+            <h1 class="hero-title">
+                <span class="line">CREATING</span>
+                <span class="line accent-text">VISUAL</span>
+                <span class="line">STORIES</span>
+            </h1>
+            <p class="hero-subtitle">Videographer & Content Creator</p>
+            <div class="hero-cta">
+                <a href="#portfolio" class="btn btn-primary">View My Work</a>
+                <a href="#contact" class="btn btn-secondary">Get In Touch</a>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <span>Scroll</span>
+            <div class="scroll-line"></div>
+        </div>
+    </section>
+
+    <section id="portfolio" class="portfolio">
+        <div class="section-header">
+            <h2 class="section-title">Selected Work</h2>
+            <p class="section-subtitle">A collection of my recent projects</p>
+        </div>
+        <div class="portfolio-grid">
+            <div class="portfolio-item large">
+                <div class="portfolio-thumb">
+                    <img src="https://images.unsplash.com/photo-1492691527719-9d1e07e534b4?w=800" alt="Cinematic Travel Film">
+                    <div class="portfolio-overlay">
+                        <span class="portfolio-category">Travel Film</span>
+                        <h3>Iceland Expedition</h3>
+                        <p>Cinematic travel documentary</p>
+                        <button class="btn-play" data-video="https://www.youtube.com/embed/dQw4w9WgXcQ">
+                            <svg viewBox="0 0 24 24"><polygon points="5,3 19,12 5,21"/></svg>
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="portfolio-item">
+                <div class="portfolio-thumb">
+                    <img src="https://images.unsplash.com/photo-1536240478700-b869070f9279?w=600" alt="Music Video">
+                    <div class="portfolio-overlay">
+                        <span class="portfolio-category">Music Video</span>
+                        <h3>Neon Dreams</h3>
+                        <p>Artist: Luna Ray</p>
+                        <button class="btn-play" data-video="https://www.youtube.com/embed/dQw4w9WgXcQ">
+                            <svg viewBox="0 0 24 24"><polygon points="5,3 19,12 5,21"/></svg>
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="portfolio-item">
+                <div class="portfolio-thumb">
+                    <img src="https://images.unsplash.com/photo-1557804506-669a67965ba0?w=600" alt="Commercial">
+                    <div class="portfolio-overlay">
+                        <span class="portfolio-category">Commercial</span>
+                        <h3>Tech Startup Launch</h3>
+                        <p>Brand: NovaTech</p>
+                        <button class="btn-play" data-video="https://www.youtube.com/embed/dQw4w9WgXcQ">
+                            <svg viewBox="0 0 24 24"><polygon points="5,3 19,12 5,21"/></svg>
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="portfolio-item">
+                <div class="portfolio-thumb">
+                    <img src="https://images.unsplash.com/photo-1516035069371-29a1b244cc32?w=600" alt="Documentary">
+                    <div class="portfolio-overlay">
+                        <span class="portfolio-category">Documentary</span>
+                        <h3>Urban Artists</h3>
+                        <p>Street art culture</p>
+                        <button class="btn-play" data-video="https://www.youtube.com/embed/dQw4w9WgXcQ">
+                            <svg viewBox="0 0 24 24"><polygon points="5,3 19,12 5,21"/></svg>
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="portfolio-item">
+                <div class="portfolio-thumb">
+                    <img src="https://images.unsplash.com/photo-1478720568477-152d9b164e63?w=600" alt="Event Coverage">
+                    <div class="portfolio-overlay">
+                        <span class="portfolio-category">Event</span>
+                        <h3>TEDx Talk</h3>
+                        <p>Keynote speaker coverage</p>
+                        <button class="btn-play" data-video="https://www.youtube.com/embed/dQw4w9WgXcQ">
+                            <svg viewBox="0 0 24 24"><polygon points="5,3 19,12 5,21"/></svg>
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="portfolio-item wide">
+                <div class="portfolio-thumb">
+                    <img src="https://images.unsplash.com/photo-1598899134739-24c46f58b8c0?w=800" alt="Brand Story">
+                    <div class="portfolio-overlay">
+                        <span class="portfolio-category">Brand Film</span>
+                        <h3>Heritage Brand</h3>
+                        <p>100-year legacy celebration</p>
+                        <button class="btn-play" data-video="https://www.youtube.com/embed/dQw4w9WgXcQ">
+                            <svg viewBox="0 0 24 24"><polygon points="5,3 19,12 5,21"/></svg>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="equipment" class="equipment">
+        <div class="section-header">
+            <h2 class="section-title">Equipment & Resources</h2>
+            <p class="section-subtitle">Professional gear rentals, sales & learning materials for creators</p>
+        </div>
+        <div class="equipment-tabs">
+            <button class="tab-btn active" data-tab="all">All</button>
+            <button class="tab-btn" data-tab="rentals">Rentals</button>
+            <button class="tab-btn" data-tab="sales">Sales</button>
+            <button class="tab-btn" data-tab="ebooks">E-Books</button>
+        </div>
+        <div class="equipment-grid">
+            <div class="equipment-card" data-category="rentals">
+                <div class="equipment-image">
+                    <img src="https://images.unsplash.com/photo-1516035069371-29a1b244cc32?w=600" alt="Camera Rental">
+                    <span class="badge rental">Rental</span>
+                </div>
+                <div class="equipment-info">
+                    <span class="equipment-category">Camera</span>
+                    <h4>Sony A7S III Body</h4>
+                    <p class="equipment-desc">4K Video, Low Light Master</p>
+                    <div class="equipment-price">₦15,000<span>/day</span></div>
+                    <button class="btn btn-primary">Rent Now</button>
+                </div>
+            </div>
+            <div class="equipment-card" data-category="rentals">
+                <div class="equipment-image">
+                    <img src="https://images.unsplash.com/photo-1502920917128-1aa500764cbd?w=600" alt="Lens Rental">
+                    <span class="badge rental">Rental</span>
+                </div>
+                <div class="equipment-info">
+                    <span class="equipment-category">Lens</span>
+                    <h4>Canon RF 24-70mm f/2.8</h4>
+                    <p class="equipment-desc">Versatile Zoom Lens</p>
+                    <div class="equipment-price">₦8,000<span>/day</span></div>
+                    <button class="btn btn-primary">Rent Now</button>
+                </div>
+            </div>
+            <div class="equipment-card" data-category="rentals">
+                <div class="equipment-image">
+                    <img src="https://images.unsplash.com/photo-1564466969055-72839e07976c?w=600" alt="Lighting Rental">
+                    <span class="badge rental">Rental</span>
+                </div>
+                <div class="equipment-info">
+                    <span class="equipment-category">Lighting</span>
+                    <h4>Aputure 300d II</h4>
+                    <p class="equipment-desc">LED Light Kit</p>
+                    <div class="equipment-price">₦10,000<span>/day</span></div>
+                    <button class="btn btn-primary">Rent Now</button>
+                </div>
+            </div>
+            <div class="equipment-card" data-category="sales">
+                <div class="equipment-image">
+                    <img src="https://images.unsplash.com/photo-1526170375885-4d8ecf77b99f?w=600" alt="Camera Sale">
+                    <span class="badge sale">Sale</span>
+                </div>
+                <div class="equipment-info">
+                    <span class="equipment-category">Camera</span>
+                    <h4>Canon EOS R6 Kit</h4>
+                    <p class="equipment-desc">Body + 24-105mm Lens</p>
+                    <div class="equipment-price">₦850,000</div>
+                    <button class="btn btn-primary">Buy Now</button>
+                </div>
+            </div>
+            <div class="equipment-card" data-category="sales">
+                <div class="equipment-image">
+                    <img src="https://images.unsplash.com/photo-1574315042618-77d9108a9408?w=600" alt="Drone Sale">
+                    <span class="badge sale">Sale</span>
+                </div>
+                <div class="equipment-info">
+                    <span class="equipment-category">Drone</span>
+                    <h4>DJI Mini 4 Pro</h4>
+                    <p class="equipment-desc">4K/60fps, 34min Flight</p>
+                    <div class="equipment-price">₦450,000</div>
+                    <button class="btn btn-primary">Buy Now</button>
+                </div>
+            </div>
+            <div class="equipment-card" data-category="sales">
+                <div class="equipment-image">
+                    <img src="https://images.unsplash.com/photo-1527838832700-5059252407fa?w=600" alt="Audio Sale">
+                    <span class="badge sale">Sale</span>
+                </div>
+                <div class="equipment-info">
+                    <span class="equipment-category">Audio</span>
+                    <h4>Rode NTG4+ Mic</h4>
+                    <p class="equipment-desc">Shotgun Microphone</p>
+                    <div class="equipment-price">₦85,000</div>
+                    <button class="btn btn-primary">Buy Now</button>
+                </div>
+            </div>
+            <div class="equipment-card" data-category="ebooks">
+                <div class="equipment-image">
+                    <img src="https://images.unsplash.com/photo-1544716278-ca5e3f4abd8c?w=600" alt="E-Book">
+                    <span class="badge free">FREE</span>
+                </div>
+                <div class="equipment-info">
+                    <span class="equipment-category">E-Book</span>
+                    <h4>Beginner's Guide to Video</h4>
+                    <p class="equipment-desc">Essential techniques for starters</p>
+                    <div class="equipment-price">Free Download</div>
+                    <button class="btn btn-secondary">Download</button>
+                </div>
+            </div>
+            <div class="equipment-card" data-category="ebooks">
+                <div class="equipment-image">
+                    <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=600" alt="E-Book">
+                    <span class="badge paid">₦5,000</span>
+                </div>
+                <div class="equipment-info">
+                    <span class="equipment-category">E-Book</span>
+                    <h4>Lighting Mastery Course</h4>
+                    <p class="equipment-desc">Complete lighting techniques</p>
+                    <div class="equipment-price">₦5,000</div>
+                    <button class="btn btn-primary">Purchase</button>
+                </div>
+            </div>
+            <div class="equipment-card" data-category="ebooks">
+                <div class="equipment-image">
+                    <img src="https://images.unsplash.com/photo-1593720213428-28a5b9e94613?w=600" alt="E-Book">
+                    <span class="badge paid">₦3,500</span>
+                </div>
+                <div class="equipment-info">
+                    <span class="equipment-category">E-Book</span>
+                    <h4>Color Grading Secrets</h4>
+                    <p class="equipment-desc">Da Vinci Resolve workflows</p>
+                    <div class="equipment-price">₦3,500</div>
+                    <button class="btn btn-primary">Purchase</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="about">
+        <div class="about-container">
+            <div class="about-image">
+                <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=600" alt="Orchies Visual">
+                <div class="experience-badge">
+                    <span class="exp-number">8+</span>
+                    <span class="exp-text">Years Experience</span>
+                </div>
+            </div>
+            <div class="about-content">
+                <h2 class="section-title">About Me</h2>
+                <p class="about-lead">I'm a passionate videographer and content creator based in Nigeria, specializing in crafting visual narratives that resonate.</p>
+                <p>With over 8 years of experience in the industry, I've had the privilege of working with brands, artists, and storytellers across the globe. My approach combines technical expertise with artistic vision to create content that doesn't just look good — it feels right.</p>
+                <div class="skills-grid">
+                    <div class="skill-item">
+                        <span class="skill-icon">🎬</span>
+                        <h4>Cinematography</h4>
+                    </div>
+                    <div class="skill-item">
+                        <span class="skill-icon">✂️</span>
+                        <h4>Editing</h4>
+                    </div>
+                    <div class="skill-item">
+                        <span class="skill-icon">🎨</span>
+                        <h4>Color Grading</h4>
+                    </div>
+                    <div class="skill-item">
+                        <span class="skill-icon">📱</span>
+                        <h4>Social Content</h4>
+                    </div>
+                    <div class="skill-item">
+                        <span class="skill-icon">🎵</span>
+                        <h4>Sound Design</h4>
+                    </div>
+                    <div class="skill-item">
+                        <span class="skill-icon">🚀</span>
+                        <h4>Motion Graphics</h4>
+                    </div>
+                </div>
+                <div class="stats">
+                    <div class="stat">
+                        <span class="stat-number">200+</span>
+                        <span class="stat-label">Projects Completed</span>
+                    </div>
+                    <div class="stat">
+                        <span class="stat-number">50+</span>
+                        <span class="stat-label">Happy Clients</span>
+                    </div>
+                    <div class="stat">
+                        <span class="stat-number">10M+</span>
+                        <span class="stat-label">Views Generated</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="clients" class="clients">
+        <div class="section-header">
+            <h2 class="section-title">Clients & Collaborators</h2>
+            <p class="section-subtitle">Brands I've had the pleasure of working with</p>
+        </div>
+        <div class="clients-slider">
+            <div class="clients-track">
+                <div class="client-logo">DSTV</div>
+                <div class="client-logo">MTN</div>
+                <div class="client-logo">AIRTEL</div>
+                <div class="client-logo">GLO</div>
+                <div class="client-logo">ZENITH BANK</div>
+                <div class="client-logo">GTBank</div>
+                <div class="client-logo">FIRST BANK</div>
+                <div class="client-logo">SHOWMAX</div>
+                <div class="client-logo">DSTV</div>
+                <div class="client-logo">MTN</div>
+                <div class="client-logo">AIRTEL</div>
+                <div class="client-logo">GLO</div>
+                <div class="client-logo">ZENITH BANK</div>
+                <div class="client-logo">GTBank</div>
+                <div class="client-logo">FIRST BANK</div>
+                <div class="client-logo">SHOWMAX</div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <div class="contact-container">
+            <div class="contact-info">
+                <h2 class="section-title">Let's Work Together</h2>
+                <p class="contact-lead">Have a project in mind? I'd love to hear about it. Drop me a message and let's create something amazing.</p>
+                <div class="contact-details">
+                    <div class="contact-item">
+                        <span class="contact-icon">📧</span>
+                        <div>
+                            <h4>Email</h4>
+                            <p>hello@orchiesvisual.com</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <span class="contact-icon">📍</span>
+                        <div>
+                            <h4>Location</h4>
+                            <p>Lagos, Nigeria</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <span class="contact-icon">📱</span>
+                        <div>
+                            <h4>Phone</h4>
+                            <p>+234 XXX XXX XXXX</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="social-links">
+                    <a href="#" class="social-link">Instagram</a>
+                    <a href="#" class="social-link">YouTube</a>
+                    <a href="#" class="social-link">Vimeo</a>
+                    <a href="#" class="social-link">LinkedIn</a>
+                </div>
+            </div>
+            <form class="contact-form" id="contactForm">
+                <div class="form-group">
+                    <input type="text" id="name" name="name" required>
+                    <label for="name">Your Name</label>
+                </div>
+                <div class="form-group">
+                    <input type="email" id="email" name="email" required>
+                    <label for="email">Email Address</label>
+                </div>
+                <div class="form-group">
+                    <input type="text" id="subject" name="subject" required>
+                    <label for="subject">Project Type</label>
+                </div>
+                <div class="form-group">
+                    <textarea id="message" name="message" rows="5" required></textarea>
+                    <label for="message">Tell Me About Your Project</label>
+                </div>
+                <button type="submit" class="btn btn-primary btn-full">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-brand">
+            <a href="#" class="logo">ORCHIES<span class="accent">VISUAL</span></a>
+                <p>Creating visual stories that inspire and engage.</p>
+            </div>
+            <div class="footer-links">
+                <a href="#home">Home</a>
+                <a href="#portfolio">Work</a>
+                <a href="#about">About</a>
+                <a href="#contact">Contact</a>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Orchies Visual. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <div class="video-lightbox" id="videoLightbox">
+        <button class="lightbox-close">&times;</button>
+        <div class="lightbox-content">
+            <iframe id="lightboxiframe" src="" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
